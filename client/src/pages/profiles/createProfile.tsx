@@ -1,3 +1,7 @@
 import React from 'react';
 
-function createProfile() {}
+export const CreateProfile: () => JSX.Element = () => {
+    return (
+        <div>Create Profile Works</div>
+        );
+}
