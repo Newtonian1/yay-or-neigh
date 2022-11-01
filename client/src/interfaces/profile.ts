@@ -5,5 +5,10 @@ export interface Profile {
     sex: string;
     photoUrl: string;
     bio: string;
-    location: GeolocationPosition;
+    location: Coordinates;
+}
+
+export interface Coordinates {
+    lat: string;
+    long: string;
 }

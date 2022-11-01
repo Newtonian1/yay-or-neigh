@@ -15,10 +15,13 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <SwipeInterface />,
-    loader: rootLoader,
-    children: [],
+    loader: rootLoader
   },{
-    path: "/profile",
+    path: "/profile/create",
+    element: <CreateProfile />,
+    loader: createProfileLoader
+  },{
+    path: "/profile/view",
     element: <CreateProfile />,
     loader: createProfileLoader
   }
